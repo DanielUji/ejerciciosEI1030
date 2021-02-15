@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <title>ePortfolio Daniel MA</title>
+</head>
+
+<body>
+    <div class="container text-center mt-4 pt-4">
+        <div class="row justify-content-between">
+            <div class="col-md-3 text-center pt-2 shadow ">
+                <!-- Mi perfil -->
+                <div class="border border p-2 mb-4" id="perfil">
+                    <img src="foto.jpg" alt="" class="rounded-circle w-75 m-2">
+                    <h6><strong>Daniel Moreno Aljaro</strong></h6>
+                    <hr>
+                    <h6>Estudiante de Ingenieria Informatica</h6>
+                </div>
+                <!--# Mi perfil -->
+                <!-- Contenidos -->
+                <div class="collapse shadow " id="contenidoE1">
+                    <div class="card card-body">
+                        <h4><u>Contenido E1:</u></h4>
+                        <p>-Mapa conceptual Tema 1 <br>
+                            -Guió entrevista <br>
+                            -Vídeo entrevista del cas pràctic de teoria</p>
+
+                        <a class="btn btn-info" href="#contenidoE1" role="button">Ver ejercicio</a>
+                    </div>
+                </div>
+                <!-- #Contenidos -->
+
+                <!-- Contenidos -->
+                <div class="collapse shadow " id="contenidoE2">
+                    <div class="card card-body">
+                        <h4><u>Contenido E2:</u></h4>
+                        <p>-Mapa conceptual Tema 1 <br>
+                            -Guió entrevista <br>
+                            -Vídeo entrevista del cas pràctic de teoria</p>
+                    </div>
+                </div>
+                <!-- #Contenidos -->
+
+                <!-- Contenidos -->
+                <div class="collapse shadow " id="contenidoENO">
+                    <div class="card card-body">
+                        <h4><u>Contenido No Disponible</u></h4>
+                    </div>
+                </div>
+                <!-- #Contenidos -->
+               
+
+            </div>
+            <div class="col-md-8">
+                <h2><u>Contenido Ejercicio 1</u></h2>
+                
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
