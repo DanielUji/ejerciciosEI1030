@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <title>ePortfolio Daniel MA</title>
+</head>
+
+<body>
+    <div class="container text-center mt-4 pt-4">
+        <div class="row justify-content-between">
+            <div class="col-md-3 text-center pt-2 shadow ">
+                <!-- Mi perfil -->
+                <div class="border border p-2 mb-4" id="perfil">
+                    <img src="../foto.jpg" alt="" class="rounded-circle w-75 m-2">
+                    <h6><strong>Daniel Moreno Aljaro</strong></h6>
+                    <hr>
+                    <h6>Estudiante de Ingenieria Informatica <br>- Universidad Jaume I -</h6>
+                </div>
+                <!--# Mi perfil -->
+            </div>
+            <div class="col-md-8">
+                <h2><u>Contenido Ejercicio 2</u></h2>
+                
+
+                <div class="container-fluid mb-5">
+                    <h4>Reflexion E1</h4>
+                    <p>En este apartado vamos a reflexionar sobre la entrevista realizada en la anterior sesión, del caso práctico “Fiestuki”, realizada junto a mi compañero Ricardo.  
+                        Para el desarrollo de la entrevista nos planteamos con anterioridad un pequeño esquema para organizarnos cada punto que debíamos incluir en nuestra entrevista. Esto fue indispensable para llevar a cabo las exigencias del caso práctico “Fiestuki” donde un analista entrevista al programador respecto a una aplicación tanto web como móvil para organizar fiestas sorpresas.
+                        Se puede decir que uno de los puntos para la valoración de nuestra entrevista no lo hemos tenido en cuenta debido a que ambos no disponíamos de cámaras web para realizar una entrevista más presencial y, ya que debido a las condiciones de la pandemia no es posible reunirse para realizar una entrevista al aire libre hemos tenido que recurrir a realizar la entrevista mediante uno de los servicios de GOOGLE llamado “meet”.
+                        Hemos percibido que el desarrollo de la entrevista ha sido fluido, al principio como es normal hemos tenido que revisar el esquema de la entrevista para ajustarla lo máximo posible a los requerimientos que se nos solicitaba, pero finalmente hemos quedado satisfecho con el resultado obtenido en la entrevista. 
+                        </p>
+                </div>
+
+                <div class="container mb-5 mt-2">
+                    <h4>Analisis del video entrevista</h4>
+                    <p>En aquest apartat anem a avaluar l’entrevista realitzada per els nostres companys segons els criteris trobats a les transparències 14-17 del tema 2 de teoria.
+
+                        En primer lloc cal dir que el lloc escollit per l’entrevistat, una cuina, no és adequat per a dur a terme aquest tipus d’entrevista, però cal dir que les condicions d’imatge i so son bones.
+                        El llenguatge no verbal és correcte tant en l’entrevistat com l’entrevistador i la entrevista s’ha pogut dur a terme sense cap interrupció.
+                        
+                        Si bé al inici de la presentació ni l’entrevistat ni l’entrevistador s’han introduït, sí s’ha concluit correctament.
+                        
+                        Pel que fa a el guió de l'entrevista, està ben organitzat i es realitzen preguntes pertinents des del punt de vista de l'analista de sistemes, és a dir,  preguntes relacionades amb les regles d’or. Encara que es nota que el representant del producte final coneix les preguntes amb anterioritat. És a dir, s'asumeix un cert grau de coneixement dels processos d’anàlisi per part de l’entrevistat, com es pot veure en les preguntes d’enmagatzenament de dades.
+                        
+                        Respecte al destinatari de la festa, personalment creiem que no s’hauria de reconèixer com un usuari mes de l'aplicació, sinó com a dades que emmagatzemen per a tindre en compte a l'hora de realitzar regals i els seus gustos, ja que si l'objectiu de l’aplicació és l’organització d’events sorpresa, no té sentit que el destinatari sigui un usuari a l’aplicació.
+                        
+                        També cal dir que al final de cada qüestió no s’ha fet un resum de la resposta donada ni s'han repassat els apartats més importants d’aquesta.
+                        
+                        En conclusió, podem dir que a nivell tècnic l'entrevista és molt completa, però s'ha notat una certa rigidesa, però tant l'entrevistador com l'entrevistat s'han vist molt segurs i ha quedat clar la finalitat i els objectius de la mateixa aplicació.
+                        </p>
+                </div>
+
+                <div class="container mb-5 mt-2">
+                    <h4>Diseño de caso de uso </h4> 
+                    <h6> Caso practico Fiestuki</h6>
+                    <img src="DCU/DCU-Fiestuki.JPG" alt="dcu" class="img-fluid">
+                </div>
+
+                <div class="container mb-5 ">
+                    <h4><u> Especificacion de caso de uso Fiestuki</u></h4>
+                    <table width="623" cellpadding="4" cellspacing="0" class="text-left">
+                        <colgroup><col width="152">
+                        <col width="453">
+                        </colgroup><tbody><tr valign="TOP">
+                            <td width="152" height="13" bgcolor="#ffffff" style="border-top: 1.00pt solid #000001; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0.04in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Identificador</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border: 1.00pt solid #000001; padding: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>C07</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Nom</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Enviar propuesta de
+                                regalo</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Versió</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>0.1</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Autors</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Daniel Moreno Aljaro</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="29" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Fonts</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Daniel Moreno Aljaro</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="29" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Descripció</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>El sistema tiene que
+                                 permitir tanto a los posibles participantes como al organizador
+                                del evento realizar posibles propuestas para regalar al
+                                destinatario del evento. Esto mismo se quedará registrado tanto
+                                la descripción del regalo como los participantes que intervienen
+                                en el regalo. </b></font>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Abast</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Implementar una
+                                tarea que permita a los participantes y al organizador registrar o
+                                proponer posibles regalos.</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Nivell</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Tarea principal</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="29" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Actor principal</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Participante,
+                                Organizador</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Actors secundaris</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Ninguno</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Relacions</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Ninguno</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Precondició</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <ul>
+                                    <li><p style="margin-top: 0.17in; margin-bottom: 0.19in"><font size="2"><b>Es
+                                    necesario tener registrado al usuario previamente</b></font></p>
+                                    </li><li><p style="margin-top: 0.19in; margin-bottom: 0.19in"><font size="2"><b>Es
+                                    necesario una invitación al evento.</b></font></p>
+                                    </li><li><p style="margin-top: 0.19in; margin-bottom: 0.19in"><font size="2"><b>Es
+                                    necesario seleccionar el botón pertinente en la pantalla para
+                                    enviar posible regalo.</b></font></p>
+                                    </li><li><p style="margin-top: 0.19in"><font size="2"><b>Disponer o
+                                    tener pensado el regalo antes de enviar propuesta o registrarlo.</b></font></p>
+                                </li></ul>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Condició fi amb
+                                èxit</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <ul>
+                                    <li><p style="margin-top: 0.17in; margin-bottom: 0.19in"><font size="2"><b>Es
+                                    necesario rellenar todas las casillas para enviar los datos del
+                                    regalo al servidor.</b></font></p>
+                                    </li><li><p style="margin-top: 0.19in; margin-bottom: 0.19in"><font size="2"><b>Notificación
+                                    de operación satisfactoria.</b></font></p>
+                                    </li><li><p style="margin-top: 0.19in"><font size="2"><b>Redirección a
+                                    la pantalla principal.</b></font></p>
+                                </li></ul>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Condició fi amb
+                                fracàs</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <ul>
+                                    <li><p style="margin-top: 0.17in; margin-bottom: 0.19in"><font size="2"><b>Rellenar
+                                    erróneamente los campos o que falte algún campo por rellenar.</b></font></p>
+                                    </li><li><p style="margin-top: 0.19in; margin-bottom: 0.19in"><font size="2"><b>Notificación
+                                    de operación no tramitada. </b></font>
+                                    </p>
+                                    </li><li><p style="margin-top: 0.19in"><font size="2"><b>Redirección a
+                                    la pantalla principal.</b></font></p>
+                                </li></ul>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Trigger</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Presionar el botón
+                                que realice la función de enviar/proponer regalo</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Seqüència normal</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Acció</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p align="RIGHT" style="margin-right: 0.06in; margin-top: 0.17in"><font size="2"><b>1</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Estando en la
+                                pantalla principal de la aplicación.</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p align="RIGHT" style="margin-right: 0.06in; margin-top: 0.17in"><font size="2"><b>2</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>El propio usuario
+                                accede desde el botón “Proponer regalo”.</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p align="RIGHT" style="margin-right: 0.06in; margin-top: 0.17in"><font size="2"><b>3</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Se muestran 2 campos
+                                de texto, un botón con la opción de agregar, un recuadro con los
+                                participantes y en la esquina superior derecha un botón con la
+                                opción de registrar los datos introducidos.</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p align="RIGHT" style="margin-right: 0.06in; margin-top: 0.17in"><font size="2"><b>4</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>El usuario
+                                selecciona el primer campo correspondiente al nombre del regalo a
+                                registrar, donde se le muestra una longitud de caracteres máxima
+                                de 35.</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p align="RIGHT" style="margin-right: 0.06in; margin-top: 0.17in"><font size="2"><b>4.1</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Rellena el primer
+                                campo.</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p align="RIGHT" style="margin-right: 0.06in; margin-top: 0.17in"><font size="2"><b>5</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>El usuario
+                                selecciona el segundo campo correspondiente a la descripción del
+                                regalo, donde se le muestra una longitud máxima de 300
+                                caracteres.</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p align="RIGHT" style="margin-right: 0.06in; margin-top: 0.17in"><font size="2"><b>5.1</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Rellena el segundo
+                                campo.</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p align="RIGHT" style="margin-right: 0.06in; margin-top: 0.17in"><font size="2"><b>6</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Presiona la opción
+                                “Agregar participantes”, donde se despliega un listado de
+                                participantes que asistieron al evento.</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p align="RIGHT" style="margin-right: 0.06in; margin-top: 0.17in"><font size="2"><b>6.1</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>El usuario
+                                selecciona desde el listado a los participantes que estarán
+                                dispuestos a colaborar con el regalo propuesto. Si no selecciona
+                                ninguno el participante será el único que participe en el
+                                regalo.</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p align="RIGHT" style="margin-right: 0.06in; margin-top: 0.17in"><font size="2"><b>7</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Una vez rellenado
+                                todos los campos, el usuario debe hacer click en el botón
+                                superior derecho para guardar el posible regalo.</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p align="RIGHT" style="margin-right: 0.06in; margin-top: 0.17in"><font size="2"><b>8</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Una vez finalizado
+                                todo el proceso y se registra correctamente se mostrará una
+                                notificación de éxito y el usuario se dirigirá a la pantalla de
+                                inicio.</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Excepcions 7</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Excepció</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p align="RIGHT" style="margin-right: 0.06in; margin-top: 0.17in"><font size="2"><b>1</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Falte algún campo
+                                por rellenar.</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p align="RIGHT" style="margin-right: 0.06in; margin-top: 0.17in"><font size="2"><b>1.1</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Falte el primer
+                                campo por rellenar.</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p align="RIGHT" style="margin-right: 0.06in; margin-top: 0.17in"><font size="2"><b>1.2</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Falte el segundo
+                                campo por rellenar.</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p align="RIGHT" style="margin-right: 0.06in; margin-top: 0.17in"><font size="2"><b>2</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Se notificará que
+                                algún campo falta por completar para poder guardar el regalo.</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="29" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Freqüència
+                                esperada</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>25 veces / semana</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Importància</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Necesario</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="14" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Prioritat</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>curt termini</b></font></p>
+                            </td>
+                        </tr>
+                        <tr valign="TOP">
+                            <td width="152" height="13" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+                                <p style="margin-top: 0.17in"><font size="2"><b>Comentaris</b></font></p>
+                            </td>
+                            <td width="453" bgcolor="#ffffff" style="border-top: none; border-bottom: 1.00pt solid #000001; border-left: 1.00pt solid #000001; border-right: 1.00pt solid #000001; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+                                <ul>
+                                    <li><p style="margin-top: 0.17in; margin-bottom: 0.19in"><font size="2"><b>Posible
+                                    notificación si no se registra ningún regalo y la fecha del
+                                    evento está próxima.</b></font></p>
+                                    </li><li><p style="margin-top: 0.19in"><font size="2"><b>No más de 5
+                                    regalos por participantes.</b></font></p>
+                                </li></ul>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </div>
+                
+                <div class="container mb-5">
+                    <h4>Prototipo de caso de uso anterior</h4>
+                    <img src="DCU/Prototipo DCU.JPG" alt="dcu" class="img-fluid">
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
