@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <title>ePortfolio Daniel MA</title>
+</head>
+
+<body>
+    <div class="container text-center mt-4 pt-4">
+        <div class="row justify-content-between">
+            <div class="col-md-3 text-center pt-2 shadow ">
+                <!-- Mi perfil -->
+                <div class="border border p-2 mb-4" id="perfil">
+                    <img src="../foto.jpg" alt="" class="rounded-circle w-75 m-2">
+                    <h6>Mi nombre es <br><strong> Daniel Moreno Aljaro</strong></h6>
+                    <hr>
+                    <h6>Actualmente soy estudiante de <br><strong> Ingenieria Informatica <br>- Universidad Jaume I -</strong></h6>
+                    <hr class="hr-peque">
+                    <span>He ejercido como desarrollador web en varias empresas, especialmente backend.</span>
+                </div>
+                <!--# Mi perfil -->
+            </div>
+            <div class="col-md-8">
+                <h2><u>Contenido Ejercicio 3</u></h2>
+                
+
+                <div class="container-fluid mb-5 mt-4">
+                    <h4>Reflexion E2</h4>
+                    <p class="text-left pt-2">En este apartado volvemos a reflexionar sobre apartados de la anterior sesión de clase, y más concretamente en el DCU, junto a la especificación realizada para la anterior sesión. Después de la evaluación por parte de mi compañeros he comprobado que en DCU me he percatado que debía reestructurar y darle otro enfoque. Esto se debe a la nueva idea en el que existe de un nuevo actor que sería el “Usuario” del cual el “participante”, el “organizador”, el “destinatario”  y el “responsable” heredan de éste, y por lo tanto todos heredan los casos de uso de “Crear una fiesta”, como “Aceptar una valoración” o “Valorar la fiesta”. <br>
+                        Respecto a la valoración de las preguntas validadas por mi compañero, he visto que cumple los requisitos más de la mitad de las preguntas, pero aun así debo tener en cuenta los que no ha cumplido, entre ellos cabe destacar que en el modelo de diagrama tengo no existen dependencias, ni generalizaciones de ningún tipo, por que esto puede deberse a dos factores, que en el caso práctico no permitirá la existencia de estos elementos o que no los haya captado en el momento de realizar el DCU, por lo que después de revisarlo detenidamente y junto a mis compañeros hemos puesto en común un modelo único en el que hemos añadido a su vez varias mejoras, y por lo tanto tenemos en común que el modelo se ajusta lo máximo posible al caso práctico descrito anteriormente, en sesiones anteriores. <br>
+                        No olvidar la especificación del caso del DCU, en que también evaluado por uno de mis compañeros se puede valorar que excepto alguna pregunta todas cumples las expectativas. En cuanto a la realización de esta especificación del DCU pienso que puede mejorarse con todas las anotaciones que debemos tener en cuenta a la hora de realizar estos modelos y tener en cuenta siempre estos factores.
+                        
+                        </p>
+                </div>
+
+                <div class="container mb-5 mt-2">
+                    <h4>DCU en grupo con dos propuestas de mejora</h4>
+                    <p class="text-left pt-2">
+
+                    </p>
+                    <ul class="text-left">
+                        <li><span >Nuevas subsecciones tales como
+                                &ldquo;Gesti&oacute;n&rdquo;,&rdquo;Servicios&rdquo;, &ldquo;Registros&rdquo;.</span></li>
+                        <li><span >La creaci&oacute;n de un nuevo actor llamado &ldquo;Usuario
+                                an&oacute;nimo&rdquo;, diferenci&aacute;ndolo del actor principal &ldquo;Usuario&rdquo;.</span></li>
+                        <li><span >Ahora el &ldquo;Responsable&rdquo; es el &uacute;nico actor que
+                                puede realizar el caso de uso &ldquo;CU003 / Crear evento&rdquo;.</span></li>
+                        <li><span >La creaci&oacute;n de un nuevo caso de uso que permita realizar
+                                modificaciones en el perfil de usuario llamado &ldquo;CU10 / Modificar perfil usuario&rdquo;.</span>
+                        </li>
+                    </ul>
+                    <a href="DCU/DCU Grupal.jpeg" class="border p2">Click para ampliar<img src="DCU/DCU Grupal.jpeg" alt="dcu" class="img-fluid"></a>
+                </div>
+
+                <div class="container mb-5 mt-2">
+                    <h4>Lista de verificación para la ingenieria de requisitos del caso practico de teoria. </h4> 
+                    <ol class="text-left" start="1">
+                        <li><span>&iquest;Se diferencian o existe ambig&uuml;edad entre roles de
+                                usuario?&iquest;Se especifican las tareas pertinentes de cada usuario?</span></li>
+                        <li><span>&iquest;Se tienen en cuenta todas las exigencias descritas en el
+                                caso pr&aacute;ctico?</span></li>
+                        <li><span>&iquest;Est&aacute;n bien redactados todos los requisitos?</span>
+                        </li>
+                        <li><span>&iquest;Todas las funciones est&aacute;n bien redactadas y
+                                detalladas?</span></li>
+                        <li><span>&iquest;Se cumplen las expectativas respecto al dise&ntilde;o del
+                                proyecto?</span></li>
+                        <li><span >&iquest;Se han realizado las pruebas necesarias/pertinentes para
+                                cada clase?</span></li>
+                        <li><span>&iquest;Se han tenido en cuenta distintas tecnolog&iacute;as para
+                                llevar a cabo el desarrollo del proyecto?</span></li>
+                        <li><span>&iquest;Cumple todas las expectativas del cliente?</span></li>
+                        <li><span>&iquest;La tecnolog&iacute;a o tecnolog&iacute;as utilizadas en el
+                                proyecto son las correctas?&iquest;Existe alguna alternativa m&aacute;s efectiva?</span></li>
+                        <li><span>&iquest;La producci&oacute;n/desarrollo del proyecto es
+                                &oacute;ptima y se alcanzan los objetivos?</span></li>
+                    </ol>
+                    
+                </div>
+
+                <div class="container mb-5 mt-2">
+                    <h4>Lista de validación para un caso de uso del caso pràctico de teoria. </h4> 
+                    <ol class="text-left" start="1">
+                        <li><span>&iquest;El usuario debe estar registrado para poder modificar su
+                                perfil?</span></li>
+                        <li><span>&iquest;Que usuario puede modificar su perfil?</span></li>
+                        <li><span>&iquest;Existe alg&uacute;n elemento que no pueda modificar el
+                                usuario?</span></li>
+                        <li><span>&iquest;Cualquier usuario puede modificar el perfil de otro
+                                usuario?</span></li>
+                        <li><span>&iquest;Existe l&iacute;mite de veces para modificar el
+                                perfil?</span></li>
+                        <li><span>&iquest;Se hacen efectivas las modificaciones al realizar
+                                alg&uacute;n cambio?</span></li>
+                        <li><span>&iquest;Se permiten caracteres especiales en alguno de los
+                                campos?</span></li>
+                        <li><span>&iquest;Se permiten t&eacute;rminos/palabras malsonantes u
+                                ofensivas?</span></li>
+                        <li><span>&iquest;Es posible recuperar o deshacer modificaciones en el
+                                perfil?</span></li>
+                        <li><span>&iquest;Es obligatorio realizar modificaciones alguna vez o cada
+                                intervalo de tiempo?</span></li>
+                    </ol>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
