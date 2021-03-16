@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <title>ePortfolio Daniel MA</title>
+</head>
+
+<body>
+    <div class="container text-center mt-4 pt-4">
+        <div class="row justify-content-between">
+            <div class="col-md-3 text-center pt-2 shadow ">
+                <!-- Mi perfil -->
+                <div class="border border p-2 mb-4" id="perfil">
+                    <img src="../foto.jpg" alt="" class="rounded-circle w-75 m-2">
+                    <h6>Mi nombre es <br><strong> Daniel Moreno Aljaro</strong></h6>
+                    <hr>
+                    <h6>Actualmente soy estudiante de <br><strong> Ingenieria Informatica <br>- Universidad Jaume I -</strong></h6>
+                    <hr class="hr-peque">
+                    <span>He ejercido como desarrollador web en varias empresas, especialmente backend.</span>
+                </div>
+                <!--# Mi perfil -->
+            </div>
+            <div class="col-md-8">
+                <h2><u>Contenido Ejercicio 4</u></h2>
+                
+
+                <div class="container-fluid mb-5 mt-4">
+                    <h4>Reflexion E3</h4>
+                    <p class="text-left pt-2">
+                        Respecto a la clase anterior y sesión correspondiente tratamos de contrastar nuestro diagrama de caso de uso grupal respecto a el resto de los compañeros y sobretodo pusimos en común la lista de verificación del resto del grupo y sobretodo la lista de validación del caso de uso inicial “Fiestuki”. <br>
+                        Se puede decir que el concepto de lo que implica la listas de verificación y validación se entendieron mejor después de las correcciones hechas en clase respecto a las listas corregidas por parte de los compañeros. Dicho lo anterior las listas que redacte no eran del todo correctas, por lo que después de la sesión redacte de nuevo unas posibles listas para practicar estos conceptos y más después de corregir en grupo listas de otros grupos de compañeros, viendo más claramente posibles fallos que habremos encontrado durante la corrección. <br>
+                        Entre las correcciones realizadas a nuestro diagrama de caso de uso por parte de otro grupo de compañeros se puede destacar sobretodo que los actores no se disponen a los lados, en nuestro diagrama uno de los fallos más visibles es la posición de los actores que se encuentran en el centro del diagrama. La idea de los subsistemas parece que muchos grupos lo han tenido en cuenta en sus diagramas y muchas otras ideas que la gran mayoría hemos incluido en nuestros diagramas. Finalmente junto al diagrama de la profesora que ha expuesto su concepto para el caso de uso inicial hemos podido refinar aún más la idea para así poder continuar para las próximas sesiones y partir cada vez más de una base más sólida. <br>
+                        En resumidas cuentas gracias a la ayuda de nuestros compañeros hemos podido entender mejor el diagrama de caso de uso y hemos podido entender el objetivo esencial de las listas de validación y las listas de verificación.                        
+                        </p>
+                </div>
+
+                <div class="container mb-5 mt-2">
+                    <h4>Historia para caso de uso - Registrar regalos</h4>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td colspan="1" rowspan="1">
+                                    <p><span class="c0">Feature</span><span class="c11">: Registrar regalos para el
+                                            evento</span></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">
+                                    <p><span class="c0">Scenario</span><span class="c4">: Registrar un regalo nuevo.</span>
+                                    </p>
+                                    <ul>
+                                        <li><span class="c4">Given: El usuario tiene una idea para
+                                                regalar.</span></li>
+                                        <li><span class="c4">When: Introduce los detalles del regalo.</span>
+                                        </li>
+                                        <li><span class="c4">Then: Se registra el regalo en la lista.</span>
+                                        </li>
+                                        <li><span class="c4">And: Se muestra al final de la lista.</span>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">
+                                    <p><span>Scenario</span><span class="c4">: Registrar regalo repetido.</span>
+                                    </p>
+                                    <ul>
+                                        <li><span>Given: El usuario tiene una idea para
+                                                regalar.</span></li>
+                                        <li><span>When: Introduce los detalles del regalo ya
+                                                repetido.</span></li>
+                                        <li><span>Then: Se notifica que el regalo ya
+                                                existe.</span></li>
+                                        <li><span>Then: No se modifica el regalo.</span></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="1" rowspan="1">
+                                    <p><span >Scenario</span><span>: Registrar regalo sin
+                                            destinatario.</span></p>
+                                    <ul>
+                                        <li><span>Given: El usuario tiene una idea para
+                                                regalar.</span></li>
+                                        <li><span>When: Introduce los detalles del regalo.</span>
+                                        </li>
+                                        <li><span>Then: No se registra el regalo en la
+                                                lista.</span></li>
+                                        <li><span>Then: Se notifica que a&uacute;n no hay
+                                                destinatario.</span></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="container mb-5 mt-2">
+                    <h4>Diagrama de clases del caso práctico "Fiestuki" </h4> 
+                    <img src="DCU/Diagrama de clases.JPG" alt="dcu" class="img-fluid">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
